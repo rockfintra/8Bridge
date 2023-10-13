@@ -1,0 +1,466 @@
+/* Config */
+
+
+
+.hero-wrapper {
+  padding: 0 24px;
+  @media (max-width: 992px) {
+    padding: 0;
+  }
+
+}
+.box-wrapper {
+  z-index: -3;
+
+  position: relative;
+  width: 100%;
+  height: 870px;
+  background-color: black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.video-background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 900px;
+  object-fit: cover;
+}
+
+
+
+.innerhead{
+  font-weight: 400;
+  font-size: 30px;
+}
+.searbar {
+  background: var(--drop-down-clr);
+  border-radius: 12px;
+  max-width: 600px;
+  max-height: 40px;
+  margin-top: 10px;
+  width: 100%;
+  @media (max-width: 992px) {
+    display: none;
+  }
+
+  .searchBar-icon {
+    padding: 6px 12px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+    svg {
+      width: 14px;
+      color: var(--icon-clr);
+      &.hover{
+        color:#ffba00;
+      }
+    }
+  }
+  input {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 12px 12px;
+    color: var(--white-clr);
+    width: 100%;
+    font-size: 13px;
+    &::placeholder {
+      color: var(--search-clr);
+    }
+     /* Styles for the .searbar when input inside it is in focus */
+  
+
+  }
+}
+
+
+.searchBar-icon svg:hover{
+  color:#ffba00;
+}
+
+
+.searbar.focus-within {
+  border: 1px solid #ffba00; /* Add the border color when input inside .searbar is focused */
+}
+
+
+
+.rowed{
+  margin-top: 20px;
+
+  width:65%;
+}
+
+.row-grid-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+}
+
+
+
+.layer1{
+  background-color:  var(--drop-down-clr);
+  border-radius: 15px;
+  padding: 25px 30px;
+}
+
+.layer2{
+  background-color:  var(--drop-down-clr);
+  border-radius: 15px;
+  padding: 25px 00px 10px;
+}
+
+.tbaloo{
+  padding: 0px 30px;
+
+}
+
+.layer1 p{
+  font-family: var(--font-medium);
+
+  font-size: 13px;
+
+}
+
+
+.layer2 p{
+  font-family: var(--font-medium);
+  padding-right: 30px;
+
+  font-size: 13px;
+
+}
+.layer1 svg{
+  width: 13px;
+  color:#ffcf4b
+
+}
+
+.troll{
+  font-family: var(--font-medium);
+  color:#ffcf4b;
+margin-top: 2px;
+margin-left: 4px;
+  font-size: 13px;
+}
+
+.iconname{
+  display: flex;
+}
+
+
+.iconnamed{
+  display: flex;
+}
+
+
+.layer1 h3{
+  font-size: 30px;
+  font-family: var(--font-medium);
+font-weight: 400;
+  color: #ffba00;
+}
+
+
+
+.layer2 h3{
+  font-size: 30px;
+  margin-right: 30px;
+  font-family: var(--font-medium);
+font-weight: 400;
+  color: #ffba00;
+}
+
+
+
+
+.fullset{
+  display:grid;
+  margin-top: 40px;
+  height:600px;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+}
+
+.fullset2{
+  width: 100%;
+  padding:20px;
+  background-color: var(--background);
+  border-radius: 20px;
+  height:100%;
+}
+
+
+
+.numbers{
+  height:25px;
+  width:25px;
+  background-color: white;
+  color:black;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.confirm{
+  margin: 10px 0;
+  color: white;
+  font-size:14px;
+}
+
+hr{
+  color: white;
+}
+
+
+
+
+.searbarh {
+  background: var(--drop-down-clr);
+  border-radius: 8px;
+  max-width: 600px;
+  min-height: 50px;
+  margin-top: 10px;
+  width: 100%;
+  @media (max-width: 992px) {
+  }
+
+  
+  
+  input {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 12px 12px;
+    color: var(--white-clr);
+    width: 100%;
+
+    font-size: 14px;
+    &::placeholder {
+      color: var(--search-clr);
+    }
+     /* Styles for the .searbar when input inside it is in focus */
+  
+
+  }
+}
+
+.searchBar-icons{
+  background-color: var(--background);
+  padding:4px 15px;
+  margin-right: 5px;
+  border-radius: 6px;
+}
+
+.nameblock{
+  display: flex;
+  margin: 40px 0 10px 0;
+}
+
+
+.nameblock svg{
+  width:10px;
+}
+
+
+.nameblock h3{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.chain-icon.ethereum {
+  border-color: #ffba00!important;
+}
+.border {
+  border: 1px solid rgba(38,38,38,.8)!important;
+  border: 1px solid #ffba00;
+}
+.chain-icon {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 25px;
+margin-left: 5px;
+height:25px;
+}
+
+
+
+.proceed{
+  cursor: pointer;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #0c1318;
+  color: white;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  border:none;
+  border-radius: 12px;
+}
+
+
+.proceed:hover{
+  cursor: pointer;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #0b0e11;
+  color: white;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  border:none;
+  border-radius: 12px;
+}
+
+.fullset1{
+  display:grid;
+  height:100%;
+  grid-template-columns: 47.5% 5% 47.5%;
+}
+
+
+.chainimg{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border: 1px solid #ffba00;
+  box-shadow: inset 0 0 20px #ffba00;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.chainimg svg{
+  width:100px;
+  height:100px;
+}
+
+.chainimg img{
+  max-width:100px;
+  max-height:100px;
+}
+
+.chainmain{
+  margin-top: 80px;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.chain-icon img{
+  width:14px;
+}
+
+.maindiv{
+  padding: 30px;
+  height:870px;
+  margin-top: -860px;
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .mobiletransition{
+    margin-top: 20px;
+  }
+  .rotation{
+    margin-top: -10px;
+    margin-bottom: -20px;
+  }
+  .fullset2{
+  width: 100%;
+  padding:20px;
+  background-color: var(--background);
+  border-radius: 20px;
+  height:fit-content;
+}
+
+  .fullset{
+    display:grid;
+    margin-top: 40px;
+    height:fit-content;
+    grid-template-columns: 1fr;
+    gap:20px;
+  }
+  .maindiv{
+    padding: 10px;
+    height:2000px;
+    margin-bottom: 100px;
+    margin-top: -2000px;
+    z-index: 5;
+  }
+  .box-wrapper{
+    width:100%;
+    z-index: -3;
+    height:2000px;
+    background-color: black;
+  
+    border-radius: 20px;
+    padding:30px 10px;
+  }
+  .fullset1{
+    display:grid;
+    width: 100%;
+    height:fit-content;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffba00;
+  animation: flicker 1s infinite;
+}
+
+
+
+
+.simple-dropdown {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #0c1318;
+  color: white;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  border:none;
+  padding-right: 20px;
+  cursor: pointer;
+  outline: none;
+
+  border-radius: 12px;
+}
+
+/* CSS for the dropdown options */
+.simple-dropdown option {
+  padding: 10px;
+  font-size: 16px;
+  color:#fff;
+  height:40px;
+  padding:20px;
+  background-color: #0c1318;
+}
+
+/* CSS for the dropdown when it's focused */
+.simple-dropdown:focus {
+  border-color: transparent;
+}
+
+

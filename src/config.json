@@ -1,0 +1,27 @@
+{
+    "homeChainId":11155111,
+    "foreignChainId":97,
+    "homeTokenContract":"0x3A36AB77B0312a85dcbA40195457dA9A3cE0BF75",
+    "foreignTokenContract":"0x934099689C104Ebd9eB283Ff799540e30d81E5ed",
+    "homeTokenUnderlyingContract":"0x8452A6d76c608057C886F54F375C16A20F9dADCb",
+    "foreignTokenUnderlyingContract":"0xc26eEDbAE20568522E4Eb7d2CaA6A78875dFcDEc",
+    "homeRouterContract":"0x43EE0B49821CE8afd2F491ee076c2407038Ba080",
+    "foreignRouterContract":"0xFB2E796afc9F98b4255c8C47CecdC5D997bF28d4",
+    "serverUrl":"https://rpc.vaultblockchain.io/api",
+    "minimumSwapAmount":{
+        "home":"50",
+        "foreign":"50"
+    },
+    "swapFee":{
+        "home":"5",
+        "foreign":"5"
+    },
+    "97":{
+        "name":"Binance Smart Chain",
+        "explorer_url":"https://testnet.bscscan.com/"
+      },
+      "11155111":{
+        "name":"Sepolia Ethereum Chain",
+        "explorer_url":"https://sepolia.etherscan.io/"
+      }
+}

@@ -1,0 +1,141 @@
+.dropdowns {
+  margin-top: 60px;
+  border-radius: 7px;
+  height:50px;
+  background-color: #0c1318;
+display: flex;
+align-items: center;
+justify-content: center;
+  position: relative;
+  width: 100%;
+
+  &-header {
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.56875rem 0.65rem;
+    margin: 0.1875rem;
+    background-color: transparent;
+    border-radius: 0.8125rem;
+    font-style: normal;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    line-height: 16px;
+    color: #0c1318;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: all 200ms linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    > span {
+      display: flex;
+      align-items: center;
+      padding-right: 10px;
+      color: #fff;
+
+      svg {
+        fill:#fff;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+      }
+
+      img {
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+        margin-right: 8px;
+      }
+    }
+
+    > svg {
+      fill:#fff;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 2px;
+    background-color: #0c1318;
+    border-radius: 0.5rem;
+    z-index: 100;
+    padding: 0.56875rem 0;
+    max-height: 200px;
+    overflow-y: auto;
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.56875rem 0.75rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--over-all-bg-clr);
+      }
+
+      span {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 21px;
+          height: 21px;
+          object-fit: contain;
+        }
+      }
+
+      > svg {
+        fill: #fff;
+        width: 13px;
+        height: 13px;
+      }
+    }
+  }
+}
+
+
+.dots{
+  width:8px;
+  height:8px;
+  margin-right:10px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+
+.drops{
+  max-width: 10px;
+  max-width: 10px;
+  margin-left: 60px;
+}
+
+
+
+
+.rotation{
+  background-color: var(--over-all-bg-clr);
+  height:40px;
+  display:flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  min-width:50px;
+}
+
+.rotation svg{
+  height:20px;
+  width:20px;
+}
+
+.rotationicon{
+  z-index: 3;
+}
